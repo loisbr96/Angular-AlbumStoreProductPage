@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
+import { ProductTraklistingComponent } from './product-traklisting/product-traklisting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    ProductTraklistingComponent
   ],
   imports: [
     BrowserModule,
